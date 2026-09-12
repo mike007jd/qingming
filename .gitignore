@@ -29,3 +29,9 @@ venv/
 /evidence/repairs-20260912/*.webm
 
 # Runtime assets and authoritative production inputs are intentionally tracked.
+
+# Reproducible web deployment output
+/dist/
+/.vercel/
+.vercel
+.env*

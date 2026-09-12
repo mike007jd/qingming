@@ -8,7 +8,9 @@
     "test": "node tests/contracts.mjs && node tests/english.mjs && node tests/crowd-contracts.mjs && node tests/render-quality.mjs && node tests/auto-batches.mjs",
     "build:assets": "python3 tools/build_assets.py",
     "test:package": "node tests/package.mjs",
-    "test:auto-assets": "python3 tests/auto-assets.py"
+    "test:auto-assets": "python3 tests/auto-assets.py",
+    "build": "node tools/build-web.mjs",
+    "test:web": "node tests/web-loader.mjs"
   },
   "engines": {
     "node": ">=22.15"
