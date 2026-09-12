@@ -1,0 +1,15 @@
+{
+  "changes": {
+    "heads": 340568,
+    "hands": 48996,
+    "tailoredVertices": 738538
+  },
+  "skeleton": "preserved all 31 joints and existing weights",
+  "headScale": [
+    0.91,
+    0.95,
+    0.93
+  ],
+  "headHeightScale": 0.89,
+  "clothFoldsMetres": 0.008
+}

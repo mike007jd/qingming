@@ -1,0 +1,5933 @@
+{
+  "sourceSha256": "c67300d0ebdbca2a4788418791365c29ab34e46c2c97b78486771ebb763a6797",
+  "meshes": [
+    {
+      "name": "Courtyard garden and household / Courtyard_00_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_00_enclosure / clay",
+      "original": 672,
+      "triangles": [
+        672,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_00_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_00_enclosure / jade",
+      "original": 1344,
+      "triangles": [
+        1344,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_00_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_00_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_00_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_00_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_00_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_00_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_00_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_01_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_01_enclosure / clay",
+      "original": 1344,
+      "triangles": [
+        1344,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_01_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_01_enclosure / jade",
+      "original": 672,
+      "triangles": [
+        672,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_01_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_01_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_01_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_01_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_01_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_01_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_01_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_02_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_02_enclosure / clay",
+      "original": 1008,
+      "triangles": [
+        1008,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_02_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_02_enclosure / jade",
+      "original": 1008,
+      "triangles": [
+        1008,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_02_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_02_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_02_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_02_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_02_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_02_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_02_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_03_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_03_enclosure / clay",
+      "original": 1344,
+      "triangles": [
+        1344,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_03_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_03_enclosure / jade",
+      "original": 672,
+      "triangles": [
+        672,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_03_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_03_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_03_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_03_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_03_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_03_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_03_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_04_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_04_enclosure / clay",
+      "original": 1344,
+      "triangles": [
+        1344,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_04_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_04_enclosure / jade",
+      "original": 672,
+      "triangles": [
+        672,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_04_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_04_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_04_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_04_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_04_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_04_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_04_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_05_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_05_enclosure / clay",
+      "original": 1344,
+      "triangles": [
+        1344,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_05_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_05_enclosure / jade",
+      "original": 672,
+      "triangles": [
+        672,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_05_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_05_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_05_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_05_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_05_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_05_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_05_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_06_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_06_enclosure / clay",
+      "original": 1680,
+      "triangles": [
+        1680,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_06_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_06_enclosure / jade",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_06_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_06_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_06_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_06_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_06_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_06_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_06_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_07_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_07_enclosure / clay",
+      "original": 1008,
+      "triangles": [
+        1008,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_07_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_07_enclosure / jade",
+      "original": 1008,
+      "triangles": [
+        1008,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_07_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_07_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_07_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_07_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_07_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_07_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_07_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_08_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_08_enclosure / clay",
+      "original": 1344,
+      "triangles": [
+        1344,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_08_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_08_enclosure / jade",
+      "original": 672,
+      "triangles": [
+        672,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_08_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_08_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_08_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_08_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_08_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_08_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_08_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_09_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_09_enclosure / clay",
+      "original": 1344,
+      "triangles": [
+        1344,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_09_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_09_enclosure / jade",
+      "original": 672,
+      "triangles": [
+        672,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_09_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_09_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_09_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_09_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_09_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_09_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_09_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_10_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_10_enclosure / clay",
+      "original": 1344,
+      "triangles": [
+        1344,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_10_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_10_enclosure / jade",
+      "original": 672,
+      "triangles": [
+        672,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_10_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_10_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_10_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_10_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_10_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_10_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_10_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_11_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_11_enclosure / clay",
+      "original": 2016,
+      "triangles": [
+        2016,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_11_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_11_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_11_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_11_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_11_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_11_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_11_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_11_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_12_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_12_enclosure / clay",
+      "original": 2016,
+      "triangles": [
+        2016,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_12_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_12_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_12_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_12_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_12_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_12_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_12_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_12_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_13_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_13_enclosure / clay",
+      "original": 1344,
+      "triangles": [
+        1344,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_13_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_13_enclosure / jade",
+      "original": 672,
+      "triangles": [
+        672,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_13_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_13_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_13_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_13_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_13_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_13_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_13_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_14_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_14_enclosure / clay",
+      "original": 1680,
+      "triangles": [
+        1680,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_14_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_14_enclosure / jade",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_14_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_14_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_14_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_14_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_14_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_14_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_14_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_15_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_15_enclosure / clay",
+      "original": 1008,
+      "triangles": [
+        1008,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_15_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_15_enclosure / jade",
+      "original": 1008,
+      "triangles": [
+        1008,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_15_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_15_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_15_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_15_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_15_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_15_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_15_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_16_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_16_enclosure / clay",
+      "original": 1680,
+      "triangles": [
+        1680,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_16_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_16_enclosure / jade",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_16_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_16_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_16_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_16_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_16_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_16_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_16_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_17_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_17_enclosure / clay",
+      "original": 1680,
+      "triangles": [
+        1680,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_17_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_17_enclosure / jade",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_17_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_17_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_17_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_17_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_17_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_17_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_17_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_18_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_18_enclosure / clay",
+      "original": 1680,
+      "triangles": [
+        1680,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_18_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_18_enclosure / jade",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_18_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_18_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_18_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_18_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_18_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_18_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_18_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_19_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_19_enclosure / clay",
+      "original": 1008,
+      "triangles": [
+        1008,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_19_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_19_enclosure / jade",
+      "original": 1008,
+      "triangles": [
+        1008,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_19_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_19_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_19_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_19_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_19_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_19_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_19_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_20_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_20_enclosure / clay",
+      "original": 1344,
+      "triangles": [
+        1344,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_20_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_20_enclosure / jade",
+      "original": 672,
+      "triangles": [
+        672,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_20_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_20_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_20_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_20_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_20_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_20_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_20_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_21_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_21_enclosure / clay",
+      "original": 1344,
+      "triangles": [
+        1344,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_21_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_21_enclosure / jade",
+      "original": 672,
+      "triangles": [
+        672,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_21_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_21_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_21_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_21_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_21_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_21_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_21_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_22_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_22_enclosure / clay",
+      "original": 672,
+      "triangles": [
+        672,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_22_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_22_enclosure / jade",
+      "original": 1344,
+      "triangles": [
+        1344,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_22_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_22_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_22_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_22_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_22_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_22_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_22_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_23_enclosure / blue_linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_23_enclosure / clay",
+      "original": 1008,
+      "triangles": [
+        1008,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_23_enclosure / green_linen",
+      "original": 2652,
+      "triangles": [
+        2652,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_23_enclosure / jade",
+      "original": 1008,
+      "triangles": [
+        1008,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_23_enclosure / leaf_dark",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_23_enclosure / leaf_light",
+      "original": 840,
+      "triangles": [
+        840,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_23_enclosure / leaf_mid",
+      "original": 1260,
+      "triangles": [
+        1260,
+        200,
+        40
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_23_enclosure / linen",
+      "original": 384,
+      "triangles": [
+        384,
+        384,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_23_enclosure / rope",
+      "original": 352,
+      "triangles": [
+        352,
+        352,
+        116
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_23_enclosure / wood",
+      "original": 120,
+      "triangles": [
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "name": "Courtyard garden and household / Courtyard_23_enclosure / wood_light",
+      "original": 6748,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0593 / linen",
+      "original": 24,
+      "triangles": [
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0593 / rope",
+      "original": 5232,
+      "triangles": [
+        2908,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0593 / wood",
+      "original": 216,
+      "triangles": [
+        216,
+        216,
+        120
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0593 / wood_light",
+      "original": 6940,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0601 / linen",
+      "original": 24,
+      "triangles": [
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0601 / rope",
+      "original": 5232,
+      "triangles": [
+        2908,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0601 / wood",
+      "original": 216,
+      "triangles": [
+        216,
+        216,
+        120
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0601 / wood_light",
+      "original": 6940,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0609 / linen",
+      "original": 24,
+      "triangles": [
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0609 / rope",
+      "original": 5232,
+      "triangles": [
+        2908,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0609 / wood",
+      "original": 216,
+      "triangles": [
+        216,
+        216,
+        120
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0609 / wood_light",
+      "original": 6940,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0617 / linen",
+      "original": 24,
+      "triangles": [
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0617 / rope",
+      "original": 5232,
+      "triangles": [
+        2908,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0617 / wood",
+      "original": 216,
+      "triangles": [
+        216,
+        216,
+        120
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0617 / wood_light",
+      "original": 6940,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0625 / linen",
+      "original": 24,
+      "triangles": [
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0625 / rope",
+      "original": 5232,
+      "triangles": [
+        2908,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0625 / wood",
+      "original": 216,
+      "triangles": [
+        216,
+        216,
+        120
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0625 / wood_light",
+      "original": 6940,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0633 / linen",
+      "original": 24,
+      "triangles": [
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0633 / rope",
+      "original": 5232,
+      "triangles": [
+        2908,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0633 / wood",
+      "original": 216,
+      "triangles": [
+        216,
+        216,
+        120
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0633 / wood_light",
+      "original": 6940,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0641 / linen",
+      "original": 24,
+      "triangles": [
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0641 / rope",
+      "original": 5232,
+      "triangles": [
+        2908,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0641 / wood",
+      "original": 216,
+      "triangles": [
+        216,
+        216,
+        120
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0641 / wood_light",
+      "original": 6940,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0649 / linen",
+      "original": 24,
+      "triangles": [
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0649 / rope",
+      "original": 5232,
+      "triangles": [
+        2908,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0649 / wood",
+      "original": 216,
+      "triangles": [
+        216,
+        216,
+        120
+      ]
+    },
+    {
+      "name": "Dock cargo / Timber_dock_with_crane__0649 / wood_light",
+      "original": 6940,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Lanes and riverbank details / clay",
+      "original": 2688,
+      "triangles": [
+        2688,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Lanes and riverbank details / jade",
+      "original": 1344,
+      "triangles": [
+        1344,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Lanes and riverbank details / rope",
+      "original": 1920,
+      "triangles": [
+        1920,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Lanes and riverbank details / stone",
+      "original": 8640,
+      "triangles": [
+        3000,
+        600,
+        120
+      ]
+    },
+    {
+      "name": "Lanes and riverbank details / wood_light",
+      "original": 40200,
+      "triangles": [
+        2910,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Willow / bark.002",
+      "original": 36900,
+      "triangles": [
+        582,
+        194,
+        58
+      ]
+    },
+    {
+      "name": "Willow / leaf_dark.002",
+      "original": 28700,
+      "triangles": [
+        2084,
+        548,
+        64
+      ]
+    },
+    {
+      "name": "Willow / leaf_light.002",
+      "original": 29116,
+      "triangles": [
+        2336,
+        496,
+        68
+      ]
+    },
+    {
+      "name": "Willow / leaf_mid.002",
+      "original": 29128,
+      "triangles": [
+        2204,
+        576,
+        64
+      ]
+    },
+    {
+      "name": "Willow / bark.001",
+      "original": 36900,
+      "triangles": [
+        582,
+        194,
+        58
+      ]
+    },
+    {
+      "name": "Willow / leaf_dark.001",
+      "original": 29116,
+      "triangles": [
+        2068,
+        600,
+        72
+      ]
+    },
+    {
+      "name": "Willow / leaf_light.001",
+      "original": 28760,
+      "triangles": [
+        2072,
+        448,
+        72
+      ]
+    },
+    {
+      "name": "Willow / leaf_mid.001",
+      "original": 29068,
+      "triangles": [
+        2040,
+        560,
+        76
+      ]
+    },
+    {
+      "name": "Willow / bark",
+      "original": 36900,
+      "triangles": [
+        582,
+        194,
+        58
+      ]
+    },
+    {
+      "name": "Willow / leaf_dark",
+      "original": 28788,
+      "triangles": [
+        2368,
+        500,
+        72
+      ]
+    },
+    {
+      "name": "Willow / leaf_light",
+      "original": 29196,
+      "triangles": [
+        2344,
+        492,
+        72
+      ]
+    },
+    {
+      "name": "Willow / leaf_mid",
+      "original": 28960,
+      "triangles": [
+        2440,
+        516,
+        76
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles House_00 / tile_dark",
+      "original": 1368,
+      "triangles": [
+        1368,
+        34,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles House_00 / tile_light",
+      "original": 1512,
+      "triangles": [
+        1512,
+        34,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles House_00 / tile_mid",
+      "original": 9720,
+      "triangles": [
+        9720,
+        92,
+        92
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles House_01 / tile_dark",
+      "original": 1968,
+      "triangles": [
+        1968,
+        33,
+        10
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles House_01 / tile_light",
+      "original": 1632,
+      "triangles": [
+        1632,
+        34,
+        10
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles House_01 / tile_mid",
+      "original": 12600,
+      "triangles": [
+        12600,
+        88,
+        88
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles House_03 / tile_dark",
+      "original": 2112,
+      "triangles": [
+        2112,
+        33,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles House_03 / tile_light",
+      "original": 2304,
+      "triangles": [
+        2304,
+        34,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles House_03 / tile_mid",
+      "original": 15672,
+      "triangles": [
+        15672,
+        100,
+        100
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles House_02 / tile_dark",
+      "original": 1488,
+      "triangles": [
+        1488,
+        34,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles House_02 / tile_light",
+      "original": 1272,
+      "triangles": [
+        1272,
+        33,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles House_02 / tile_mid",
+      "original": 13944,
+      "triangles": [
+        13944,
+        96,
+        96
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_00 / tile_dark",
+      "original": 1632,
+      "triangles": [
+        1632,
+        34,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_00 / tile_light",
+      "original": 1272,
+      "triangles": [
+        1272,
+        34,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_00 / tile_mid",
+      "original": 12072,
+      "triangles": [
+        12072,
+        66,
+        66
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_03 / tile_dark",
+      "original": 1656,
+      "triangles": [
+        1656,
+        33,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_03 / tile_light",
+      "original": 1560,
+      "triangles": [
+        1560,
+        34,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_03 / tile_mid",
+      "original": 12336,
+      "triangles": [
+        12336,
+        74,
+        74
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_06 / tile_dark",
+      "original": 1488,
+      "triangles": [
+        1488,
+        34,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_06 / tile_light",
+      "original": 1656,
+      "triangles": [
+        1656,
+        34,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_06 / tile_mid",
+      "original": 12984,
+      "triangles": [
+        12984,
+        74,
+        74
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_09 / tile_dark",
+      "original": 1752,
+      "triangles": [
+        1752,
+        34,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_09 / tile_light",
+      "original": 1728,
+      "triangles": [
+        1728,
+        34,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_09 / tile_mid",
+      "original": 15528,
+      "triangles": [
+        15528,
+        80,
+        80
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_02 / tile_dark",
+      "original": 2112,
+      "triangles": [
+        2112,
+        34,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_02 / tile_light",
+      "original": 1800,
+      "triangles": [
+        1800,
+        33,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_02 / tile_mid",
+      "original": 16536,
+      "triangles": [
+        16536,
+        80,
+        80
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_05 / tile_dark",
+      "original": 1344,
+      "triangles": [
+        1344,
+        33,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_05 / tile_light",
+      "original": 1368,
+      "triangles": [
+        1368,
+        34,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_05 / tile_mid",
+      "original": 14088,
+      "triangles": [
+        14088,
+        76,
+        76
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_08 / tile_dark",
+      "original": 1224,
+      "triangles": [
+        1224,
+        34,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_08 / tile_light",
+      "original": 1392,
+      "triangles": [
+        1392,
+        33,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_08 / tile_mid",
+      "original": 10560,
+      "triangles": [
+        10560,
+        104,
+        104
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_04 / tile_dark",
+      "original": 1272,
+      "triangles": [
+        1272,
+        34,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_04 / tile_light",
+      "original": 1416,
+      "triangles": [
+        1416,
+        34,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_04 / tile_mid",
+      "original": 13896,
+      "triangles": [
+        13896,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_07 / tile_dark",
+      "original": 2016,
+      "triangles": [
+        2016,
+        34,
+        10
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_07 / tile_light",
+      "original": 2424,
+      "triangles": [
+        2424,
+        34,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_07 / tile_mid",
+      "original": 15264,
+      "triangles": [
+        15264,
+        108,
+        108
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_01 / tile_dark",
+      "original": 1848,
+      "triangles": [
+        1848,
+        34,
+        10
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_01 / tile_light",
+      "original": 1848,
+      "triangles": [
+        1848,
+        34,
+        11
+      ]
+    },
+    {
+      "name": "Overlapping clay tiles Shop_01 / tile_mid",
+      "original": 13776,
+      "triangles": [
+        13776,
+        98,
+        98
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / blue_linen.002",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / clay.002",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / green_linen.002",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / iron.002",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / jade.002",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / red_linen.002",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / wood.002",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / wood_light.002",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / blue_linen.002",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / clay.002",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / green_linen.002",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / iron.002",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / jade.002",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / red_linen.002",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / wood.002",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / wood_light.002",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_06 / clay.002",
+      "original": 1008,
+      "triangles": [
+        1008,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_06 / iron.002",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_06 / jade.002",
+      "original": 2352,
+      "triangles": [
+        2352,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_06 / wood.002",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_06 / wood_light.002",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_09 / clay.002",
+      "original": 2688,
+      "triangles": [
+        2688,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_09 / iron.002",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_09 / jade.002",
+      "original": 672,
+      "triangles": [
+        672,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_09 / wood.002",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_09 / wood_light.002",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / clay.003",
+      "original": 2016,
+      "triangles": [
+        2016,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / iron.003",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / jade.003",
+      "original": 2016,
+      "triangles": [
+        2016,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / wood.003",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / wood_light.003",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / clay.003",
+      "original": 672,
+      "triangles": [
+        672,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / fruit.003",
+      "original": 2880,
+      "triangles": [
+        2880,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / iron.003",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / rope.003",
+      "original": 960,
+      "triangles": [
+        960,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / wood.003",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / wood_light.003",
+      "original": 20460,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / clay.002",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / fruit.002",
+      "original": 2880,
+      "triangles": [
+        2880,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / iron.002",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / jade.002",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / rope.002",
+      "original": 960,
+      "triangles": [
+        960,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / wood.002",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / wood_light.002",
+      "original": 20460,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / clay.002",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / iron.002",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / jade.002",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / rope.002",
+      "original": 1280,
+      "triangles": [
+        1280,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / wood.002",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / wood_light.002",
+      "original": 27160,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / clay.003",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / iron.003",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / jade.003",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / rope.003",
+      "original": 1280,
+      "triangles": [
+        1280,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / wood.003",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / wood_light.003",
+      "original": 27160,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / iron.003",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / jade.003",
+      "original": 672,
+      "triangles": [
+        672,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / rope.003",
+      "original": 1280,
+      "triangles": [
+        1280,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / wood.003",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / wood_light.003",
+      "original": 27160,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / blue_linen.003",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / clay.003",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / green_linen.003",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / iron.003",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / jade.003",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / red_linen.003",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / wood.003",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / wood_light.003",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / blue_linen.003",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / clay.003",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / green_linen.003",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / iron.003",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / jade.003",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / red_linen.003",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / wood.003",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / wood_light.003",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / clay.004",
+      "original": 2016,
+      "triangles": [
+        2016,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / iron.004",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / jade.004",
+      "original": 2016,
+      "triangles": [
+        2016,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / wood.004",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / wood_light.004",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / clay.004",
+      "original": 672,
+      "triangles": [
+        672,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / fruit.004",
+      "original": 2880,
+      "triangles": [
+        2880,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / iron.004",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / rope.004",
+      "original": 960,
+      "triangles": [
+        960,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / wood.004",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / wood_light.004",
+      "original": 20460,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / clay.003",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / fruit.003",
+      "original": 2880,
+      "triangles": [
+        2880,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / iron.003",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / jade.003",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / rope.003",
+      "original": 960,
+      "triangles": [
+        960,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / wood.003",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / wood_light.003",
+      "original": 20460,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / clay.003",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / iron.003",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / jade.003",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / rope.003",
+      "original": 1280,
+      "triangles": [
+        1280,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / wood.003",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / wood_light.003",
+      "original": 27160,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / clay.004",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / iron.004",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / jade.004",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / rope.004",
+      "original": 1280,
+      "triangles": [
+        1280,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / wood.004",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / wood_light.004",
+      "original": 27160,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / iron.004",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / jade.004",
+      "original": 672,
+      "triangles": [
+        672,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / rope.004",
+      "original": 1280,
+      "triangles": [
+        1280,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / wood.004",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / wood_light.004",
+      "original": 27160,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / blue_linen.004",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / clay.004",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / green_linen.004",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / iron.004",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / jade.004",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / red_linen.004",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / wood.004",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / wood_light.004",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / blue_linen.004",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / clay.004",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / green_linen.004",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / iron.004",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / jade.004",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / red_linen.004",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / wood.004",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / wood_light.004",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_06 / clay.003",
+      "original": 1008,
+      "triangles": [
+        1008,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_06 / iron.003",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_06 / jade.003",
+      "original": 2352,
+      "triangles": [
+        2352,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_06 / wood.003",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_06 / wood_light.003",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_09 / clay.003",
+      "original": 2688,
+      "triangles": [
+        2688,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_09 / iron.003",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_09 / jade.003",
+      "original": 672,
+      "triangles": [
+        672,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_09 / wood.003",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_09 / wood_light.003",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / clay.005",
+      "original": 2016,
+      "triangles": [
+        2016,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / iron.005",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / jade.005",
+      "original": 2016,
+      "triangles": [
+        2016,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / wood.005",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / wood_light.005",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / clay.005",
+      "original": 672,
+      "triangles": [
+        672,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / fruit.005",
+      "original": 2880,
+      "triangles": [
+        2880,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / iron.005",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / rope.005",
+      "original": 960,
+      "triangles": [
+        960,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / wood.005",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / wood_light.005",
+      "original": 20460,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / clay",
+      "original": 2016,
+      "triangles": [
+        2016,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / iron",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / jade",
+      "original": 2016,
+      "triangles": [
+        2016,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / wood",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / wood_light",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / clay",
+      "original": 672,
+      "triangles": [
+        672,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / fruit",
+      "original": 2880,
+      "triangles": [
+        2880,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / iron",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / rope",
+      "original": 960,
+      "triangles": [
+        960,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / wood",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / wood_light",
+      "original": 20460,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / clay",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / fruit",
+      "original": 2880,
+      "triangles": [
+        2880,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / iron",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / jade",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / rope",
+      "original": 960,
+      "triangles": [
+        960,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / wood",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / wood_light",
+      "original": 20460,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / clay",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / iron",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / jade",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / rope",
+      "original": 1280,
+      "triangles": [
+        1280,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / wood",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / wood_light",
+      "original": 27160,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / clay",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / iron",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / jade",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / rope",
+      "original": 1280,
+      "triangles": [
+        1280,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / wood",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / wood_light",
+      "original": 27160,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / iron",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / jade",
+      "original": 672,
+      "triangles": [
+        672,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / rope",
+      "original": 1280,
+      "triangles": [
+        1280,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / wood",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / wood_light",
+      "original": 27160,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / blue_linen",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / clay",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / green_linen",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / iron",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / jade",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / red_linen",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / wood",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / wood_light",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / blue_linen",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / clay",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / green_linen",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / iron",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / jade",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / red_linen",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / wood",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / wood_light",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_06 / clay",
+      "original": 1008,
+      "triangles": [
+        1008,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_06 / iron",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_06 / jade",
+      "original": 2352,
+      "triangles": [
+        2352,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_06 / wood",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_06 / wood_light",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_09 / clay",
+      "original": 2688,
+      "triangles": [
+        2688,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_09 / iron",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_09 / jade",
+      "original": 672,
+      "triangles": [
+        672,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_09 / wood",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_09 / wood_light",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / clay.001",
+      "original": 2016,
+      "triangles": [
+        2016,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / iron.001",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / jade.001",
+      "original": 2016,
+      "triangles": [
+        2016,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / wood.001",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / wood_light.001",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / clay.001",
+      "original": 672,
+      "triangles": [
+        672,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / fruit.001",
+      "original": 2880,
+      "triangles": [
+        2880,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / iron.001",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / rope.001",
+      "original": 960,
+      "triangles": [
+        960,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / wood.001",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / wood_light.001",
+      "original": 20460,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / clay.001",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / iron.001",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / jade.001",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / rope.001",
+      "original": 1280,
+      "triangles": [
+        1280,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / wood.001",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / wood_light.001",
+      "original": 27160,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / iron.001",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / jade.001",
+      "original": 672,
+      "triangles": [
+        672,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / rope.001",
+      "original": 1280,
+      "triangles": [
+        1280,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / wood.001",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / wood_light.001",
+      "original": 27160,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / blue_linen.001",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / clay.001",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / green_linen.001",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / iron.001",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / jade.001",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / red_linen.001",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / wood.001",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_00 / wood_light.001",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / blue_linen.001",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / clay.001",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / green_linen.001",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / iron.001",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / jade.001",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / red_linen.001",
+      "original": 48,
+      "triangles": [
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / wood.001",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_03 / wood_light.001",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_06 / clay.001",
+      "original": 1008,
+      "triangles": [
+        1008,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_06 / iron.001",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_06 / jade.001",
+      "original": 2352,
+      "triangles": [
+        2352,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_06 / wood.001",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_06 / wood_light.001",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_09 / clay.001",
+      "original": 2688,
+      "triangles": [
+        2688,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_09 / iron.001",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_09 / jade.001",
+      "original": 672,
+      "triangles": [
+        672,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_09 / wood.001",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_09 / wood_light.001",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / clay.002",
+      "original": 2016,
+      "triangles": [
+        2016,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / iron.002",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / jade.002",
+      "original": 2016,
+      "triangles": [
+        2016,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / wood.002",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_02 / wood_light.002",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / clay.002",
+      "original": 672,
+      "triangles": [
+        672,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / fruit.002",
+      "original": 2880,
+      "triangles": [
+        2880,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / iron.002",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / rope.002",
+      "original": 960,
+      "triangles": [
+        960,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / wood.002",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_05 / wood_light.002",
+      "original": 20460,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / clay.001",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / fruit.001",
+      "original": 2880,
+      "triangles": [
+        2880,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / iron.001",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / jade.001",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / rope.001",
+      "original": 960,
+      "triangles": [
+        960,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / wood.001",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_08 / wood_light.001",
+      "original": 20460,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / clay.001",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / iron.001",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / jade.001",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / rope.001",
+      "original": 1280,
+      "triangles": [
+        1280,
+        581,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / wood.001",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_01 / wood_light.001",
+      "original": 27160,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / clay.002",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / iron.002",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / jade.002",
+      "original": 336,
+      "triangles": [
+        336,
+        336,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / rope.002",
+      "original": 1280,
+      "triangles": [
+        1280,
+        582,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / wood.002",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_04 / wood_light.002",
+      "original": 27160,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / iron.002",
+      "original": 192,
+      "triangles": [
+        192,
+        192,
+        116
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / jade.002",
+      "original": 672,
+      "triangles": [
+        672,
+        582,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / rope.002",
+      "original": 1280,
+      "triangles": [
+        1280,
+        581,
+        115
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / wood.002",
+      "original": 360,
+      "triangles": [
+        360,
+        360,
+        120
+      ]
+    },
+    {
+      "name": "Shop joinery and trade Shop_07 / wood_light.002",
+      "original": 27160,
+      "triangles": [
+        2910,
+        582,
+        120
+      ]
+    },
+    {
+      "name": "Broadleaf / bark",
+      "original": 36900,
+      "triangles": [
+        582,
+        194,
+        58
+      ]
+    },
+    {
+      "name": "Broadleaf / leaf_dark",
+      "original": 28520,
+      "triangles": [
+        2064,
+        464,
+        72
+      ]
+    },
+    {
+      "name": "Broadleaf / leaf_light",
+      "original": 29440,
+      "triangles": [
+        2108,
+        484,
+        72
+      ]
+    },
+    {
+      "name": "Broadleaf / leaf_mid",
+      "original": 28984,
+      "triangles": [
+        2076,
+        484,
+        72
+      ]
+    },
+    {
+      "name": "Broadleaf / bark.002",
+      "original": 36900,
+      "triangles": [
+        582,
+        194,
+        58
+      ]
+    },
+    {
+      "name": "Broadleaf / leaf_dark.002",
+      "original": 29060,
+      "triangles": [
+        2124,
+        508,
+        68
+      ]
+    },
+    {
+      "name": "Broadleaf / leaf_light.002",
+      "original": 29476,
+      "triangles": [
+        2196,
+        496,
+        80
+      ]
+    },
+    {
+      "name": "Broadleaf / leaf_mid.002",
+      "original": 28408,
+      "triangles": [
+        2096,
+        492,
+        80
+      ]
+    },
+    {
+      "name": "Broadleaf / bark.001",
+      "original": 36900,
+      "triangles": [
+        582,
+        194,
+        58
+      ]
+    },
+    {
+      "name": "Broadleaf / leaf_dark.001",
+      "original": 28600,
+      "triangles": [
+        2384,
+        584,
+        76
+      ]
+    },
+    {
+      "name": "Broadleaf / leaf_light.001",
+      "original": 29496,
+      "triangles": [
+        2308,
+        576,
+        76
+      ]
+    },
+    {
+      "name": "Broadleaf / leaf_mid.001",
+      "original": 28848,
+      "triangles": [
+        2432,
+        584,
+        80
+      ]
+    }
+  ],
+  "treeBudgets": [
+    8000,
+    2000,
+    300
+  ],
+  "sha256": "6b8a9facc67f73e2fbbe372c549202b07da13733ec7e1751c6e67a3c135afd2f"
+}

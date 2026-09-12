@@ -1,0 +1,1273 @@
+{
+  "generator": "tools/build_auto_lods.py",
+  "source": {
+    "vertexCount": 5787176,
+    "indexCount": 18551682,
+    "drawCount": 1731,
+    "materialCount": 46,
+    "imageCount": 34,
+    "textureCount": 34
+  },
+  "assets": [
+    {
+      "name": "Person_merchant_0",
+      "original": 47407,
+      "removedInternalTriangles": 2288,
+      "triangles": [
+        2893,
+        937,
+        272
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_merchant_1",
+      "original": 47407,
+      "removedInternalTriangles": 2288,
+      "triangles": [
+        2891,
+        936,
+        274
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_merchant_2",
+      "original": 47433,
+      "removedInternalTriangles": 2288,
+      "triangles": [
+        2902,
+        959,
+        279
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_laborer_0",
+      "original": 49283,
+      "removedInternalTriangles": 2440,
+      "triangles": [
+        2903,
+        963,
+        277
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_laborer_1",
+      "original": 49283,
+      "removedInternalTriangles": 2440,
+      "triangles": [
+        2901,
+        962,
+        285
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_laborer_2",
+      "original": 49309,
+      "removedInternalTriangles": 2440,
+      "triangles": [
+        2898,
+        957,
+        275
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_porter_0",
+      "original": 52783,
+      "removedInternalTriangles": 2440,
+      "triangles": [
+        2214,
+        941,
+        268
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_porter_1",
+      "original": 52783,
+      "removedInternalTriangles": 2440,
+      "triangles": [
+        2213,
+        941,
+        267
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_porter_2",
+      "original": 52809,
+      "removedInternalTriangles": 2440,
+      "triangles": [
+        2212,
+        942,
+        275
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_boatman_0",
+      "original": 47791,
+      "removedInternalTriangles": 520,
+      "triangles": [
+        2807,
+        957,
+        272
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_boatman_1",
+      "original": 47791,
+      "removedInternalTriangles": 520,
+      "triangles": [
+        2795,
+        960,
+        278
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_boatman_2",
+      "original": 47817,
+      "removedInternalTriangles": 520,
+      "triangles": [
+        2805,
+        960,
+        274
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_vendor_0",
+      "original": 47363,
+      "removedInternalTriangles": 520,
+      "triangles": [
+        2901,
+        963,
+        275
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_vendor_1",
+      "original": 47363,
+      "removedInternalTriangles": 520,
+      "triangles": [
+        2900,
+        963,
+        275
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_vendor_2",
+      "original": 47389,
+      "removedInternalTriangles": 520,
+      "triangles": [
+        2899,
+        961,
+        277
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_woman_0",
+      "original": 47571,
+      "removedInternalTriangles": 2288,
+      "triangles": [
+        2782,
+        953,
+        273
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_woman_1",
+      "original": 47571,
+      "removedInternalTriangles": 2288,
+      "triangles": [
+        2782,
+        951,
+        275
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_woman_2",
+      "original": 47571,
+      "removedInternalTriangles": 2288,
+      "triangles": [
+        2783,
+        953,
+        273
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_scholar_0",
+      "original": 47239,
+      "removedInternalTriangles": 2288,
+      "triangles": [
+        2900,
+        963,
+        280
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_scholar_1",
+      "original": 47239,
+      "removedInternalTriangles": 2288,
+      "triangles": [
+        2891,
+        959,
+        277
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_scholar_2",
+      "original": 47265,
+      "removedInternalTriangles": 2288,
+      "triangles": [
+        2890,
+        958,
+        277
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_guard_0",
+      "original": 48699,
+      "removedInternalTriangles": 520,
+      "triangles": [
+        2760,
+        929,
+        268
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_guard_2",
+      "original": 48725,
+      "removedInternalTriangles": 520,
+      "triangles": [
+        2758,
+        934,
+        271
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_farmer_0",
+      "original": 49711,
+      "removedInternalTriangles": 2440,
+      "triangles": [
+        2807,
+        957,
+        272
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_farmer_1",
+      "original": 49711,
+      "removedInternalTriangles": 2440,
+      "triangles": [
+        2795,
+        960,
+        278
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_farmer_2",
+      "original": 49737,
+      "removedInternalTriangles": 2440,
+      "triangles": [
+        2805,
+        960,
+        274
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_child_0",
+      "original": 44158,
+      "removedInternalTriangles": 488,
+      "triangles": [
+        2900,
+        959,
+        275
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_child_1",
+      "original": 44158,
+      "removedInternalTriangles": 488,
+      "triangles": [
+        2899,
+        960,
+        277
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Person_child_2",
+      "original": 44184,
+      "removedInternalTriangles": 487,
+      "triangles": [
+        2903,
+        963,
+        281
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Basket",
+      "original": 3868,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        2316,
+        1630,
+        463
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Storage_jar",
+      "original": 912,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        912,
+        912,
+        464
+      ],
+      "batches": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Slatted_crate",
+      "original": 300,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        300,
+        300,
+        300
+      ],
+      "batches": [
+        1
+      ]
+    },
+    {
+      "name": "Hemp_sack",
+      "original": 488,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        216,
+        216,
+        216
+      ],
+      "batches": [
+        2
+      ]
+    },
+    {
+      "name": "Wooden_barrel",
+      "original": 2224,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        1291,
+        1291,
+        464
+      ],
+      "batches": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Door_Shop_00_1",
+      "original": 296,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        80,
+        80,
+        80
+      ],
+      "batches": [
+        2
+      ]
+    },
+    {
+      "name": "Shop_00",
+      "original": 43472,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        35354,
+        34484,
+        34484
+      ],
+      "batches": [
+        19,
+        19,
+        19
+      ]
+    },
+    {
+      "name": "Door_Shop_01_1",
+      "original": 296,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        128,
+        128,
+        128
+      ],
+      "batches": [
+        1
+      ]
+    },
+    {
+      "name": "Shop_01",
+      "original": 44900,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        33385,
+        33385,
+        33385
+      ],
+      "batches": [
+        18
+      ]
+    },
+    {
+      "name": "Shop_02",
+      "original": 30704,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        20717,
+        20717,
+        20717
+      ],
+      "batches": [
+        19
+      ]
+    },
+    {
+      "name": "Door_Shop_03_1",
+      "original": 296,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        80,
+        80,
+        80
+      ],
+      "batches": [
+        2
+      ]
+    },
+    {
+      "name": "Shop_03",
+      "original": 36416,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        24953,
+        24953,
+        24953
+      ],
+      "batches": [
+        19
+      ]
+    },
+    {
+      "name": "Door_Shop_04_1",
+      "original": 296,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        80,
+        80,
+        80
+      ],
+      "batches": [
+        2
+      ]
+    },
+    {
+      "name": "Shop_04",
+      "original": 44124,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        35055,
+        35055,
+        35055
+      ],
+      "batches": [
+        17
+      ]
+    },
+    {
+      "name": "Door_Shop_05_1",
+      "original": 296,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        128,
+        128,
+        128
+      ],
+      "batches": [
+        1
+      ]
+    },
+    {
+      "name": "Shop_05",
+      "original": 51416,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        39178,
+        39178,
+        39178
+      ],
+      "batches": [
+        18
+      ]
+    },
+    {
+      "name": "Door_Shop_06_1",
+      "original": 296,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        80,
+        80,
+        80
+      ],
+      "batches": [
+        2
+      ]
+    },
+    {
+      "name": "Shop_06",
+      "original": 44216,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        34719,
+        33898,
+        33898
+      ],
+      "batches": [
+        19,
+        19,
+        19
+      ]
+    },
+    {
+      "name": "Shop_07",
+      "original": 35584,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        24574,
+        24574,
+        24574
+      ],
+      "batches": [
+        18
+      ]
+    },
+    {
+      "name": "Door_Shop_08_1",
+      "original": 296,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        80,
+        80,
+        80
+      ],
+      "batches": [
+        2
+      ]
+    },
+    {
+      "name": "Shop_08",
+      "original": 45848,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        35884,
+        34695,
+        34695
+      ],
+      "batches": [
+        18,
+        18,
+        18
+      ]
+    },
+    {
+      "name": "Door_Shop_09_1",
+      "original": 296,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        128,
+        128,
+        128
+      ],
+      "batches": [
+        1
+      ]
+    },
+    {
+      "name": "Shop_09",
+      "original": 44280,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        31220,
+        31220,
+        31220
+      ],
+      "batches": [
+        19
+      ]
+    },
+    {
+      "name": "Door_House_00_0",
+      "original": 296,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        80,
+        80,
+        80
+      ],
+      "batches": [
+        2
+      ]
+    },
+    {
+      "name": "House_00",
+      "original": 21336,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        16183,
+        14086,
+        14086
+      ],
+      "batches": [
+        14,
+        14,
+        14
+      ]
+    },
+    {
+      "name": "Door_House_01_0",
+      "original": 296,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        128,
+        128,
+        128
+      ],
+      "batches": [
+        1
+      ]
+    },
+    {
+      "name": "House_01",
+      "original": 22136,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        15759,
+        13847,
+        13847
+      ],
+      "batches": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "name": "Door_House_02_0",
+      "original": 296,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        80,
+        80,
+        80
+      ],
+      "batches": [
+        2
+      ]
+    },
+    {
+      "name": "House_02",
+      "original": 22652,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        16499,
+        15284,
+        15284
+      ],
+      "batches": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "name": "Door_House_03_0",
+      "original": 296,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        80,
+        80,
+        80
+      ],
+      "batches": [
+        2
+      ]
+    },
+    {
+      "name": "Door_House_03_1",
+      "original": 296,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        80,
+        80,
+        80
+      ],
+      "batches": [
+        2
+      ]
+    },
+    {
+      "name": "House_03",
+      "original": 28836,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        22003,
+        21667,
+        21667
+      ],
+      "batches": [
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "name": "Temple | raised timber hall and ceremonial stairs",
+      "original": 71328,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        50786,
+        50766,
+        50766
+      ],
+      "batches": [
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "City gate | through-arch masonry and double-eave tower",
+      "original": 85104,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        53012,
+        50144,
+        50144
+      ],
+      "batches": [
+        9,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Wall_section_12m",
+      "original": 18344,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        5160,
+        4336,
+        4336
+      ],
+      "batches": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Pagoda | seven-storey octagonal city landmark",
+      "original": 39376,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        13970,
+        13970,
+        13970
+      ],
+      "batches": [
+        7
+      ]
+    },
+    {
+      "name": "Market_stall_0",
+      "original": 7212,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        2519,
+        1752,
+        455
+      ],
+      "batches": [
+        7,
+        7,
+        5
+      ]
+    },
+    {
+      "name": "Market_stall_1",
+      "original": 3296,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        1446,
+        1400,
+        452
+      ],
+      "batches": [
+        7,
+        7,
+        5
+      ]
+    },
+    {
+      "name": "Market_stall_2",
+      "original": 7376,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        2272,
+        1622,
+        454
+      ],
+      "batches": [
+        8,
+        7,
+        6
+      ]
+    },
+    {
+      "name": "Market_stall_3",
+      "original": 2168,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        1474,
+        1474,
+        449
+      ],
+      "batches": [
+        8,
+        8,
+        7
+      ]
+    },
+    {
+      "name": "Market_stall_4",
+      "original": 14972,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        4706,
+        1974,
+        447
+      ],
+      "batches": [
+        6,
+        6,
+        5
+      ]
+    },
+    {
+      "name": "Tea_terrace",
+      "original": 1488,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        431,
+        431,
+        398
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Cooking_hearth",
+      "original": 3596,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        804,
+        694,
+        283
+      ],
+      "batches": [
+        8,
+        8,
+        6
+      ]
+    },
+    {
+      "name": "Horse_saddled",
+      "original": 7568,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        5852,
+        2319,
+        449
+      ],
+      "batches": [
+        7,
+        7,
+        5
+      ]
+    },
+    {
+      "name": "Ox_saddled",
+      "original": 7378,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        5724,
+        2314,
+        433
+      ],
+      "batches": [
+        9,
+        9,
+        4
+      ]
+    },
+    {
+      "name": "Handcart",
+      "original": 3956,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        2486,
+        2273,
+        461
+      ],
+      "batches": [
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "Covered_goods_cart",
+      "original": 5936,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        3618,
+        2321,
+        461
+      ],
+      "batches": [
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "Timber_dock_with_crane",
+      "original": 11484,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        3146,
+        2235,
+        443
+      ],
+      "batches": [
+        4,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "Courtyard_walls_gate_well_and_household_props",
+      "original": 17114,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        9746,
+        9746,
+        9746
+      ],
+      "batches": [
+        12
+      ]
+    },
+    {
+      "name": "Market_parasol",
+      "original": 604,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        378,
+        378,
+        340
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Watchtower | open military timber pavilion",
+      "original": 9512,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        6480,
+        4672,
+        4672
+      ],
+      "batches": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Ground | banks and continuous city terrain",
+      "original": 195384,
+      "triangles": [
+        195384
+      ],
+      "batches": [
+        1540
+      ],
+      "spatialChunkMetres": 32
+    },
+    {
+      "name": "Streets | individually laid paving slabs",
+      "original": 421476,
+      "triangles": [
+        421476
+      ],
+      "batches": [
+        58
+      ],
+      "spatialChunkMetres": 32
+    },
+    {
+      "name": "Quayside_loading_walk",
+      "original": 1920,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        633,
+        633,
+        416
+      ],
+      "batches": [
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "Distant_hills | layered atmospheric terrain",
+      "original": 22400,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        11638,
+        2328,
+        465
+      ],
+      "batches": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Courtyard_life_0",
+      "original": 224,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        104,
+        104,
+        104
+      ],
+      "batches": [
+        2
+      ]
+    },
+    {
+      "name": "Courtyard_life_1",
+      "original": 2868,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        2592,
+        2190,
+        463
+      ],
+      "batches": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "Courtyard_life_2",
+      "original": 228,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        222,
+        222,
+        222
+      ],
+      "batches": [
+        2
+      ]
+    },
+    {
+      "name": "Courtyard_life_3",
+      "original": 12612,
+      "removedInternalTriangles": 0,
+      "triangles": [
+        5535,
+        2322,
+        467
+      ],
+      "batches": [
+        3,
+        3,
+        3
+      ]
+    }
+  ]
+}

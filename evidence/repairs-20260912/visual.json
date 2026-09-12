@@ -1,0 +1,90 @@
+{
+  "errors": [],
+  "views": [
+    {
+      "camera": {
+        "eye": [
+          0,
+          6.3,
+          -82
+        ],
+        "target": [
+          0,
+          12,
+          -108
+        ],
+        "fov": 54
+      },
+      "programs": 254,
+      "gpuError": 0
+    },
+    {
+      "camera": {
+        "eye": [
+          1.8,
+          4.7,
+          -40
+        ],
+        "target": [
+          7.7,
+          7,
+          -43.5
+        ],
+        "fov": 46
+      },
+      "programs": 267,
+      "gpuError": 0
+    },
+    {
+      "camera": {
+        "eye": [
+          0,
+          4,
+          -35
+        ],
+        "target": [
+          0,
+          6.8,
+          -96
+        ],
+        "fov": 58
+      },
+      "programs": 275,
+      "gpuError": 0
+    },
+    {
+      "camera": {
+        "eye": [
+          45,
+          43,
+          55
+        ],
+        "target": [
+          -6,
+          3.5,
+          -5
+        ],
+        "fov": 46
+      },
+      "programs": 330,
+      "gpuError": 0
+    },
+    {
+      "camera": {
+        "eye": [
+          43,
+          19,
+          68
+        ],
+        "target": [
+          25,
+          3.5,
+          49
+        ],
+        "fov": 49
+      },
+      "programs": 330,
+      "gpuError": 0
+    }
+  ]
+}

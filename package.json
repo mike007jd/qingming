@@ -1,0 +1,16 @@
+{
+  "name": "qingming-final",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node tests/contracts.mjs && node tests/english.mjs && node tests/crowd-contracts.mjs && node tests/render-quality.mjs && node tests/auto-batches.mjs",
+    "build:assets": "python3 tools/build_assets.py",
+    "test:package": "node tests/package.mjs",
+    "test:auto-assets": "python3 tests/auto-assets.py"
+  },
+  "engines": {
+    "node": ">=22.15"
+  }
+}

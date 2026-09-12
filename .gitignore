@@ -1,0 +1,31 @@
+# Machine-local files and credentials
+.DS_Store
+._*
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and caches
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.cache/
+*.log
+*.pid
+*.blend1
+*.blend2
+
+# Local rollback archives and generated diagnostic captures
+/backup/
+/output/
+/evidence/*
+!/evidence/*.md
+!/evidence/index.html
+!/evidence/repairs-20260912/
+/evidence/repairs-20260912/*.webm
+
+# Runtime assets and authoritative production inputs are intentionally tracked.

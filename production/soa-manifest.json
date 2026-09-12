@@ -1,0 +1,60 @@
+{
+  "sourceGzSha256": "2d595885efab7fff9785ba7c490cad89c860e8953d79647d813ff7fadd7b8218",
+  "sourceBytesSha256": "29f530daed00efc545dff667de6bb66b68268f7f700dd176809ef3312d6cd3f4",
+  "derivedGzSha256": "9095abd82cdd8231b4f45f34435f80f8665bf1f3352abd5612ce21890df5b6a7",
+  "derivedBytesSha256": "a4cef1a3dbf230b736f338a0deaef73e752e97e1c0867c82bf36fe9ffa039a09",
+  "derivedLength": 451085260,
+  "generated": "2026-09-12T11:20:31.823048+00:00",
+  "generator": "tools/pack_city_soa.py",
+  "blocks": {
+    "position": {
+      "type": "float32",
+      "components": 3,
+      "normalized": false,
+      "offset": 0,
+      "count": 7765481
+    },
+    "normal": {
+      "type": "int16",
+      "components": 3,
+      "normalized": true,
+      "offset": 93185772,
+      "count": 7765481
+    },
+    "uv": {
+      "type": "float32",
+      "components": 2,
+      "normalized": false,
+      "offset": 139778660,
+      "count": 7765481
+    },
+    "color": {
+      "type": "uint8",
+      "components": 4,
+      "normalized": true,
+      "offset": 201902508,
+      "count": 7765481
+    },
+    "joints": {
+      "type": "uint16",
+      "components": 4,
+      "normalized": false,
+      "offset": 232964432,
+      "count": 7765481
+    },
+    "weights": {
+      "type": "uint8",
+      "components": 4,
+      "normalized": true,
+      "offset": 295088280,
+      "count": 7765481
+    },
+    "region": {
+      "type": "float32",
+      "components": 1,
+      "normalized": false,
+      "offset": 326150204,
+      "count": 7765481
+    }
+  }
+}

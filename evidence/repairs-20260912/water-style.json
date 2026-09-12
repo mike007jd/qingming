@@ -1,0 +1,174 @@
+{
+  "errors": [],
+  "states": [
+    {
+      "quality": "auto",
+      "preset": "color",
+      "enabled": 1,
+      "saturation": 0.72,
+      "paper": [
+        0.7991027380100881,
+        0.6938717612856897,
+        0.5028864580233624
+      ],
+      "shared": true,
+      "steps": 120,
+      "time": 0.9999999999999999,
+      "field": [
+        2048,
+        256
+      ],
+      "programs": 331,
+      "error": 0,
+      "selected": "color"
+    },
+    {
+      "quality": "auto",
+      "preset": "silk",
+      "enabled": 1,
+      "saturation": 0.06,
+      "paper": [
+        0.5972017883558645,
+        0.37626212298046485,
+        0.14126329113044458
+      ],
+      "shared": true,
+      "steps": 120,
+      "time": 0.9999999999999999,
+      "field": [
+        2048,
+        256
+      ],
+      "programs": 331,
+      "error": 0,
+      "selected": "silk"
+    },
+    {
+      "quality": "auto",
+      "preset": "silk",
+      "enabled": 0,
+      "saturation": 0.06,
+      "paper": [
+        0.5972017883558645,
+        0.37626212298046485,
+        0.14126329113044458
+      ],
+      "shared": true,
+      "steps": 120,
+      "time": 0.9999999999999999,
+      "field": [
+        2048,
+        256
+      ],
+      "programs": 444,
+      "error": 0,
+      "selected": "off"
+    },
+    {
+      "quality": "auto",
+      "preset": "silk",
+      "enabled": 1,
+      "saturation": 0.06,
+      "paper": [
+        0.5972017883558645,
+        0.37626212298046485,
+        0.14126329113044458
+      ],
+      "shared": true,
+      "steps": 120,
+      "time": 0.9999999999999999,
+      "field": [
+        2048,
+        256
+      ],
+      "programs": 444,
+      "error": 0,
+      "selected": "silk"
+    },
+    {
+      "quality": "cinema",
+      "preset": "color",
+      "enabled": 1,
+      "saturation": 0.72,
+      "paper": [
+        0.7991027380100881,
+        0.6938717612856897,
+        0.5028864580233624
+      ],
+      "shared": true,
+      "steps": 120,
+      "time": 0.9999999999999999,
+      "field": [
+        2048,
+        256
+      ],
+      "programs": 532,
+      "error": 0,
+      "selected": "color"
+    },
+    {
+      "quality": "cinema",
+      "preset": "silk",
+      "enabled": 1,
+      "saturation": 0.06,
+      "paper": [
+        0.5972017883558645,
+        0.37626212298046485,
+        0.14126329113044458
+      ],
+      "shared": true,
+      "steps": 120,
+      "time": 0.9999999999999999,
+      "field": [
+        2048,
+        256
+      ],
+      "programs": 532,
+      "error": 0,
+      "selected": "silk"
+    },
+    {
+      "quality": "cinema",
+      "preset": "silk",
+      "enabled": 0,
+      "saturation": 0.06,
+      "paper": [
+        0.5972017883558645,
+        0.37626212298046485,
+        0.14126329113044458
+      ],
+      "shared": true,
+      "steps": 120,
+      "time": 0.9999999999999999,
+      "field": [
+        2048,
+        256
+      ],
+      "programs": 532,
+      "error": 0,
+      "selected": "off"
+    },
+    {
+      "quality": "cinema",
+      "preset": "silk",
+      "enabled": 1,
+      "saturation": 0.06,
+      "paper": [
+        0.5972017883558645,
+        0.37626212298046485,
+        0.14126329113044458
+      ],
+      "shared": true,
+      "steps": 120,
+      "time": 0.9999999999999999,
+      "field": [
+        2048,
+        256
+      ],
+      "programs": 532,
+      "error": 0,
+      "selected": "silk"
+    }
+  ],
+  "status": "passed"
+}
