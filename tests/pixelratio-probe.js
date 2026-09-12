@@ -36,7 +36,7 @@ export async function benchmark(engine,app){
   report.status=report.pass?'passed':'failed';
  }catch(error){report.status='failed';report.error=error.stack||error.message;}
  finally{
-  engine.maxPixelRatio=saved.cap??1.25;engine.profilePasses=saved.profile;engine.setQuality(saved.quality==='cinema'?'cinema':'auto');engine.resize();
+  engine.maxPixelRatio=saved.cap??1;engine.profilePasses=saved.profile;engine.setQuality(saved.quality==='cinema'?'cinema':'auto');engine.resize();
   engine.animate=saved.animate;engine.fixedTime=saved.fixed;engine.exporting=saved.exporting;engine.captureSize=saved.size;app.setView(0,true);engine.clockLast=performance.now()/1000;engine._renderSignature=null;button.disabled=false;delete report.current;report.finished=new Date().toISOString();show();
   try{const response=await fetch('/capture/quality/T2-pixelratio.json',{method:'POST',body:JSON.stringify(report)});if(response.ok)report.savedPath='quality/T2-pixelratio.json';}catch(e){report.saveError=e.message;}
  }

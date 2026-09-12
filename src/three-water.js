@@ -45,7 +45,8 @@ export class ThreeRiver extends AdvancedRiver {
   const points=[],ids=boats.map(b=>b.id),time=this.uniforms.uTime.value;
   for(const b of boats){const c=Math.cos(b.heading),s=Math.sin(b.heading),x=b.p[0],z=-b.p[1];points.push([x,z],[x+c*2,z-s*2],[x-c*2,z+s*2],[x-s,z-c],[x+s,z+c]);}
   const store=samples=>{this.boatSamples=new Map(ids.map((id,i)=>[id,samples.slice(i*5,i*5+5)]));this.boatSampleTime=time;};
-  const e=this.engine,async=e.quality!=='cinema'&&e.animate&&!e.exporting&&!e.captureSize&&!e.recording&&e.fixedTime===undefined;
+  const e=this.engine,async=e.animate&&!e.exporting&&!e.captureSize&&!e.recording&&e.fixedTime===undefined;
+  // Both live detail tiers use delayed readback; captures and recording keep exact samples.
   // Keep at most one delayed batch, addressed by boat identity rather than old coordinates.
   // ponytail: samples may lag by up to 0.25 simulation seconds; refresh synchronously beyond that.
   if(!async||ids.some(id=>!this.boatSamples.has(id))||Math.abs(time-this.boatSampleTime)>.25){

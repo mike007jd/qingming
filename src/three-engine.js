@@ -22,7 +22,7 @@ export class ThreeCityEngine {
  this.sunLight=new T.DirectionalLight(new T.Color(1,.91,.77),3.25);this.sunLight.castShadow=true;this.sunLight.shadow.bias=-.00008;this.sunLight.shadow.normalBias=.065;this.scene.add(this.sunLight,this.sunLight.target);this.scene.add(new T.HemisphereLight(new T.Color(.61,.76,1.),new T.Color(.45,.34,.22),.67));this.scene.add(new T.AmbientLight(new T.Color(.81,.75,.61),.18));
  this.localLights=Array.from({length:6},()=>{const l=new T.PointLight(0xffd49a,1,8,2);this.scene.add(l);return l;});
  this.sourceAssets=data.manifest.assets.map(a=>{const matrices=a.instances.map(i=>multiply(Z_TO_Y,i.matrix)),b=a.bounds,center=b[0].map((v,i)=>(v+b[1][i])*.5),radius=Math.hypot(...b[0].map((v,i)=>(b[1][i]-v)*.5)),category=/Person/.test(a.name)?'people':/Willow|Broadleaf|reeds|Courtyard_life/.test(a.name)?'trees':/boat|barge|Ferry|skiff/i.test(a.name)?'boats':/^(Horse_saddled|Ox_saddled|Handcart|Covered_goods_cart)$/.test(a.name)?'animals':/hill/.test(a.name)?'hills':'city';return {...a,matrices,baseMatrices:matrices.map(m=>new Float32Array(m)),center,centers:matrices.map(m=>transform(m,center)),radius,category};});
- this.maxPixelRatio=1.25;this.navigation=new CollisionWorld(data.navigation);this.navigation.registerDoors(this.sourceAssets);this.crowd=new CrowdSystem(this,data.rigs,this.navigation);this.life=new CityEcology(data.ecology,this.navigation);this.life.attachPeople(this.crowd.actors);this.lifeBinding=new LifeBinding(this,this.life);
+ this.maxPixelRatio=1;this.navigation=new CollisionWorld(data.navigation);this.navigation.registerDoors(this.sourceAssets);this.crowd=new CrowdSystem(this,data.rigs,this.navigation);this.life=new CityEcology(data.ecology,this.navigation);this.life.attachPeople(this.crowd.actors);this.lifeBinding=new LifeBinding(this,this.life);
  makeCityMaterials(this);this.createGeometry();this.river=new ThreeRiver(this);this.life.onBoatStep=(dt,t,b)=>this.river.step(dt,t,b);this.buildRouteLines();
   // r179 depth materials need an active renderer state. This empty render creates
   // that state, then draws only the full shadow map (no discarded city color pass).
@@ -75,7 +75,8 @@ export class ThreeCityEngine {
   this.resetPassProfile();this.shadowDirty=true;this.gpuErrorCheck=true;this._renderSignature=null;this.resize();
  }
  resize(){
-  const ratio=this.quality==='cinema'?(devicePixelRatio||1):Math.min(devicePixelRatio||1,this.maxPixelRatio??1.25),w=Math.max(2,Math.round(this.captureSize?.[0]??this.canvas.clientWidth*ratio)),h=Math.max(2,Math.round(this.captureSize?.[1]??this.canvas.clientHeight*ratio));
+  // Detail and display resolution are independent; Retina must not silently bypass the chosen cap.
+  const ratio=Math.min(devicePixelRatio||1,this.maxPixelRatio??1),w=Math.max(2,Math.round(this.captureSize?.[0]??this.canvas.clientWidth*ratio)),h=Math.max(2,Math.round(this.captureSize?.[1]??this.canvas.clientHeight*ratio));
   if(w!==this.width||h!==this.height||this.final?.samples!==this.settings.samples){this.width=w;this.height=h;this.renderer.setPixelRatio(1);this.renderer.setSize(w,h,false);this.final?.dispose();this.final=this.target(w,h);this.final.samples=this.settings.samples;
   // Batch 2 (refraction reuse): the final depth must survive the MSAA resolve so
   // copySnapshot can copy it into the river snapshot. The old false skipped an

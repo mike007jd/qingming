@@ -5,8 +5,9 @@ registerHooks({resolve(specifier,ctx,next){const file={'three':'vendor/three.mod
 const T=await import('three');
 const {ThreeRiver}=await import('../src/three-water.js');
 const {ThreeCityEngine}=await import('../src/three-engine.js');
+for(const quality of ['auto','cinema']){
 let target=null,syncReads=0,asyncReads=0,settle,rejectRead,packBinding=null;
-const river=Object.assign(Object.create(ThreeRiver.prototype),{engine:{quality:'auto',animate:true},uniforms:{uTime:{value:0},uWaveScale:{value:1}},steps:0,queryWidth:10,queryData:new Float32Array(40),queryPixels:new Float32Array(40),queryTexture:{},queryTarget:{},sampleCache:new Map(),boatSamples:new Map(),boatSampleTime:-Infinity,pendingQuery:null});
+const river=Object.assign(Object.create(ThreeRiver.prototype),{engine:{quality,animate:true},uniforms:{uTime:{value:0},uWaveScale:{value:1}},steps:0,queryWidth:10,queryData:new Float32Array(40),queryPixels:new Float32Array(40),queryTexture:{},queryTarget:{},sampleCache:new Map(),boatSamples:new Map(),boatSampleTime:-Infinity,pendingQuery:null});
 const fill=(pixels,time)=>{for(let i=0;i<10;i++)pixels.set([time+i*.01,0,0,1],i*4);return pixels;};
 river.renderer={getRenderTarget:()=>target,setRenderTarget:t=>target=t,render(){},getClearColor:c=>c,getClearAlpha:()=>1,setClearColor(){},clear(){},getContext:()=>({PIXEL_PACK_BUFFER:1,bindBuffer:(_,v)=>packBinding=v}),readRenderTargetPixels:(_t,_x,_y,_w,_h,p)=>{syncReads++;fill(p,river.uniforms.uTime.value);},readRenderTargetPixelsAsync:(_t,_x,_y,_w,_h,p)=>{asyncReads++;packBinding='native PBO';const time=river.uniforms.uTime.value;return new Promise((resolve,reject)=>{settle=()=>resolve(fill(p,time));rejectRead=reject;});}};
 const boats=[{id:4,p:[0,0],heading:0},{id:9,p:[20,0],heading:0}];
@@ -25,9 +26,24 @@ const free=river.sampleSurface(100,2).height;river.uniforms.uTime.value=.2;asser
 assert.throws(()=>river.sampleSurface(NaN,0),RangeError);assert.throws(()=>river.samplePoints([[Infinity,0]]),RangeError);
 river.engine.animate=true;river.sampleBoats(boats);const beforeReset=river.pendingQuery,completeReset=settle;river.reset();completeReset();await beforeReset.promise;assert.equal(river.boatSamples.size,0,'reset discards delayed pre-reset data');
 river.sampleBoats(boats);river.sampleBoats(boats);const failed=river.pendingQuery;rejectRead(new Error('readback failed'));await failed.promise;assert.throws(()=>river.sampleBoats(boats),/readback failed/);river.reset();
+}
 const painted=new T.MeshStandardMaterial(),water=new T.ShaderMaterial();
 const engine=Object.assign(Object.create(ThreeCityEngine.prototype),{renderer:{shadowMap:{type:T.PCFSoftShadowMap}},sunLight:new T.DirectionalLight(),style:{materials:new Set([painted])},river:{material:water},_passQueries:[],resize(){}});
 engine.setQuality('auto');assert.equal(engine.settings.shadow,1024);assert.equal(engine.settings.samples,2);assert.equal(engine.renderer.shadowMap.type,T.PCFSoftShadowMap);const version=painted.version;engine.shadowDirty=false;engine.setQuality('auto');assert.equal(painted.version,version);assert.equal(engine.shadowDirty,false,'same tier does not invalidate every measured frame');engine.setQuality('cinema');assert.equal(engine.settings.shadow,4096);assert.equal(engine.settings.samples,4);assert.equal(engine.renderer.shadowMap.type,T.PCFSoftShadowMap);assert.throws(()=>engine.setQuality('bad'),RangeError);
+// Exercise actual resize allocation with a Retina display, explicit Native, and export overrides.
+const previousDPR=globalThis.devicePixelRatio;
+globalThis.devicePixelRatio=2;
+try{
+ const resized=Object.assign(Object.create(ThreeCityEngine.prototype),{canvas:{clientWidth:1000,clientHeight:600},maxPixelRatio:1.25,settings:{samples:4},renderer:{setPixelRatio(){},setSize(){}}});
+ for(const quality of ['auto','cinema']){
+  resized.quality=quality;resized.resize();assert.equal(resized.width,1250);assert.equal(resized.height,750);
+  resized.maxPixelRatio=1;resized.resize();assert.equal(resized.width,1000);
+  resized.maxPixelRatio=Infinity;resized.resize();assert.equal(resized.width,2000);
+  resized.captureSize=[3840,2160];resized.resize();assert.equal(resized.width,3840);assert.equal(resized.height,2160);
+  resized.captureSize=null;resized.maxPixelRatio=1.25;resized.resize();assert.equal(resized.width,1250);
+ }
+ resized.final.dispose();
+}finally{if(previousDPR===undefined)delete globalThis.devicePixelRatio;else globalThis.devicePixelRatio=previousDPR;}
 Object.assign(engine,{sunHour:15.5,time:0,sunDirection:new T.Vector3(),skyMaterial:{uniforms:{sun:{},clock:{}}},navigation:{lights:[]},localLights:[]});
 const camera=new T.PerspectiveCamera();camera.position.set(6,3.3,8);camera.lookAt(0,2,0);camera.updateMatrixWorld();
 engine.lighting(camera);const originalCenter=engine.sunLight.target.position.clone(),originalSpan=engine.sunLight.shadow.camera.right;
