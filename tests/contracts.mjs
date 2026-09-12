@@ -87,6 +87,12 @@ for(let frame=0;frame<3;frame++){
  assert.equal(lodAsset.lodState.reflection[2],1,'repeated reflected frames retain their selected tier');
 }
 culler.lodEnabled=false;lodCamera.position.z=0;lodCamera.updateMatrixWorld();assert.deepEqual(culler.updateBatches(lodCamera).levels,[3,0,0],'full-detail comparison disables all lower levels');
+// Cinema keeps nearby authored high detail but still simplifies distant instances.
+culler.quality='cinema';culler.lodEnabled=true;culler.lodDetailScale=1.5;
+assert.deepEqual(culler.updateBatches(lodCamera).levels,[1,1,1],'Cinema spans high, medium and low geometry by projected size');
+lodCamera.position.z=-115;lodCamera.updateMatrixWorld();culler.updateBatches(lodCamera);
+assert.equal(lodAsset.lodState.main[2],0,'approaching a distant Cinema instance restores its original high geometry');
+culler.quality=undefined;culler.lodDetailScale=1;lodCamera.position.z=0;lodCamera.updateMatrixWorld();
 // Roof batches use original geometry/materials and cull each selected instance independently.
 const {batchRoofTiles}=await import('../src/scene-details.js');
 const roofRoot=new T.Group(),roofMaterial=new T.MeshStandardMaterial(),roofLevels=[0,1,2].map(()=>({geometry:new T.BoxGeometry(1,1,1)}));

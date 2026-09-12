@@ -83,7 +83,7 @@ vec2 breezeAt(float y){float h=max(y,0.)/8.;
    let pixels=projectedDiameter(camera,engine.height,p.x,p.y,p.z,sphere.radius);
    // The reflection pass is perturbed, blurred and fresnel-weighted by the
    // water shader, so it selects one tier coarser than the main view.
-   const tier=selectLOD(pixels,entry.thresholds,entry.history[pass],pass==='main'?0:auto||pass==='reflection'?1:0);
+   const tier=selectLOD(pixels*(engine.lodDetailScale??1),entry.thresholds,entry.history[pass],pass==='main'?0:auto||pass==='reflection'?1:0);
    const level=engine.lodEnabled?Math.min(entry.levels.length-1,tier):0;
    entry.history[pass]=level;entry.mesh.geometry=entry.levels[level].geometry;counts[level]++;
   }

@@ -27,7 +27,7 @@ export class ThreeCityEngine {
   // r179 depth materials need an active renderer state. This empty render creates
   // that state, then draws only the full shadow map (no discarded city color pass).
   this.shadowPass=new T.Scene();this.shadowPass.onAfterRender=(renderer,_,camera)=>renderer.shadowMap.render([this.sunLight],this.scene,camera);
-  this.post=new QingmingPass(this.renderer,this.style,{samples:4,normalThreshold:.28});this.setQuality('auto');this.frustum=new T.Frustum();this.shadowFrustum=new T.Frustum();this._vp=new T.Matrix4();this._mat=new T.Matrix4();this._sphere=new T.Sphere();this._center=new T.Vector3();this.reflectionVP=new T.Matrix4();this.frame=0;this.error=0;this.gpuErrorCheck=true;this.renderSequence='refraction-reuse';this.river.sprayPoints.layers.enable(this.river.overlayLayer);
+  this.post=new QingmingPass(this.renderer,this.style,{samples:2,normalThreshold:.28});this.setQuality('auto');this.frustum=new T.Frustum();this.shadowFrustum=new T.Frustum();this._vp=new T.Matrix4();this._mat=new T.Matrix4();this._sphere=new T.Sphere();this._center=new T.Vector3();this.reflectionVP=new T.Matrix4();this.frame=0;this.error=0;this.gpuErrorCheck=true;this.renderSequence='refraction-reuse';this.river.sprayPoints.layers.enable(this.river.overlayLayer);
   // r179 culls lights by camera layers inside projectObject; without this the
   // overlay-layer water pass would lose NUM_DIR_LIGHT_SHADOWS and its shadow mask.
   // All lights (not just the sun) keep the pass's light counts identical to the
@@ -69,7 +69,7 @@ export class ThreeCityEngine {
  setQuality(mode='auto'){
   if(!['auto','cinema'].includes(mode))throw new RangeError('Unknown quality tier: '+mode);
   if(this.quality===mode){this.resize();return;}
-  this.quality=mode;this.style.setPerformanceMode?.(mode==='auto');this.lodEnabled=mode!=='cinema';this.settings={shadow:mode==='auto'?1024:4096,samples:mode==='auto'?2:4,ao:true};this.sunLight.shadow.mapSize.setScalar(this.settings.shadow);this.sunLight.shadow.map?.dispose();this.sunLight.shadow.map=null;this.river?.setGeometryQuality?.(mode);
+  this.quality=mode;this.style.setPerformanceMode?.(mode==='auto');this.lodEnabled=true;this.lodDetailScale=mode==='cinema'?1.5:1;this.settings={shadow:1024,samples:2,ao:true};this.sunLight.shadow.mapSize.setScalar(this.settings.shadow);this.sunLight.shadow.map?.dispose();this.sunLight.shadow.map=null;this.river?.setGeometryQuality?.(mode);
   for(const a of this.sourceAssets||[])for(const state of Object.values(a.lodState||{}))state.fill(0);
   // Both tiers retain the original filtering and light projection.
   this.resetPassProfile();this.shadowDirty=true;this.gpuErrorCheck=true;this._renderSignature=null;this.resize();
@@ -121,7 +121,7 @@ export class ThreeCityEngine {
    if(a.nativeVisible)a.nativeVisible[pass][i]=1;
    if(multi){
     const thresholds=this.quality==='auto'&&a.rig?[180,60]:[240,100];
-    history[i]=this.lodEnabled?Math.min(selector.lodCount-1,selectLOD(pixels,thresholds,history[i],pass==='main'?0:this.quality==='auto'||pass==='reflection'?1:0)):0;
+    history[i]=this.lodEnabled?Math.min(selector.lodCount-1,selectLOD(pixels*(this.lodDetailScale??1),thresholds,history[i],pass==='main'?0:this.quality==='auto'||pass==='reflection'?1:0)):0;
     const j=byLod[history[i]];if(j===undefined)continue;
     const b=bs[j];b.matrices.set(mat,counts[j]*16);b.matrices[counts[j]*16+15]=1;b.meta.array[counts[j]]=mat[15];counts[j]++;
    }else for(let j=0;j<bs.length;j++){const b=bs[j];b.matrices.set(mat,counts[j]*16);b.matrices[counts[j]*16+15]=1;b.meta.array[counts[j]]=mat[15];counts[j]++;}

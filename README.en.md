@@ -16,19 +16,19 @@ Double-click `START.command` on macOS or `START.bat` on Windows, or run `npm sta
 
 ## Quality and capture
 
-| Setting | Auto · Performance | Cinema · Original detail |
+| Setting | Auto · Performance | Cinema · Rich detail |
 | --- | --- | --- |
-| NPC geometry | ≤3000 / 1000 / 300 triangles at 180 / 60 px, two shared materials | Original geometry/materials |
-| Whole trees | ≤8000 / 2000 / 300 triangles at 160 / 48 px | Original geometry |
-| Buildings / ground | Preserved structural members and near roof tiles; closed coarse roofs; original ground in ~32m chunks | Original geometry |
-| MSAA / shadow map | 2× / 1024 | 4× / 4096 |
+| NPC geometry | ≤3000 / 1000 / 300 triangles at 180 / 60 px, two shared materials | Original materials, high geometry nearby / authored LOD at distance |
+| Whole trees | ≤8000 / 2000 / 300 triangles at 160 / 48 px | Original geometry and available authored LOD |
+| Buildings / ground | Preserved structural members and near roof tiles; closed coarse roofs; original ground in ~32m chunks | Original geometry and available authored LOD |
+| MSAA / shadow map | 2× / 1024 | 2× / 1024 |
 | Water mesh | 1024×64 in ~32m chunks | Original 2048×256 |
 | Screen resolution | Pixel ratio capped at 1.25 by default; adjustable | Native pixel ratio |
-| Shadow / reflection | One coarser LOD; NPC shadows enter at 40m, leave at 44m; alternate refresh for stationary animated views | Original geometry, every render |
+| Shadow / reflection | One coarser LOD; NPC shadows enter at 40m, leave at 44m; alternate refresh for stationary animated views | Authored LOD, every render |
 | Hull samples | One asynchronous batch, mapped by boat identity; sync fallback after 0.25 seconds | Immediate synchronous batch |
 | Scroll outlines | Independent normal/depth pass using main geometry and visibility | Original pass |
 
-All 584 people, 31 joints, adult/child actions, ecology, collisions and original Blender sources remain. Hongqiao rails, deck and arches retain their original geometry. Textures remain ≤1K; the 2048×256 water field and 1/120-second simulation substeps are unchanged. Pause, fixed-time checks, capture and recording force immediate sampling and full source refresh. Auto intentionally simplifies faces, folds, accessories and distant details. Cinema retains the original detail for inspection and export.
+All 584 people, 31 joints, adult/child actions, ecology, collisions and original Blender sources remain. Hongqiao rails, deck and arches retain their original geometry. Textures remain ≤1K; the 2048×256 water field and 1/120-second simulation substeps are unchanged. Pause, fixed-time checks, capture and recording force immediate sampling and full source refresh. Auto intentionally simplifies faces, folds, accessories and distant details. Cinema keeps original high-detail geometry nearby and uses the authored LOD levels in the distance. A 1.5× projected-size bias retains detail longer, with the existing 20% return hysteresis.
 
 **Capture 4K still** saves a 3840×2160 PNG. **Export all views** saves 20 captures: ten views in styled and original materials. **Record 10-second walkthrough** saves a 1920×1080 WebM. Capture dimensions are independent of the Resolution control; output goes to `evidence/`.
 
