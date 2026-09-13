@@ -32,14 +32,8 @@ npm run test:auto-assets
 blender --background --factory-startup --python-exit-code 1 --python tests/auto-structure.py
 ```
 
-## Current status
-
-Water styling, structural repairs and the 42 GPU checks passed on the Mac. Stable 30 fps and triangle budgets have **not** passed. Structural preservation currently keeps too much interior detail: main maximum 5.80M triangles; complete refresh maximum 24.77M. Next work: separate structural members from small decoration, bake middle/far detail, then measure native 1080p real-loop FPS/P95. Keep Hongqiao rails and architectural silhouettes intact.
-
-See `PERF_QUALITY_SPEC.md` and `evidence/landmarks-switch-20260912.md`. Historical reports may link to captures excluded from Git; the current repair evidence is retained in `evidence/repairs-20260912`.
-
 ## Public web build
 
-`npm run build` creates `dist/` from the checked-out LFS runtime assets. It verifies the SoA source hash, splits its gzip bytes into 32 MiB parts, and copies the four GLBs used by the renderer, textures, data and bundled code. `npm run test:web` checks split loading, the original local single-file path and missing-part errors. The public build hides capture/export controls that require `server.mjs`; local capture remains available through `npm start`. Production Blender files, backups and evidence are kept outside the public output.
+`npm run build` creates `dist/` from the checked-out LFS runtime assets. It verifies the SoA source hash, splits its gzip bytes into 32 MiB parts, and copies the four GLBs used by the renderer, textures, data and bundled code. `npm run test:web` checks split loading, the original local single-file path and missing-part errors. The public build hides capture/export controls that require `server.mjs`; local capture remains available through `npm start`. Production Blender files and newly generated captures are kept outside the public output.
 
 The independent Vercel project is `mike007jds-projects/qingming-riverside`, with Git LFS enabled, framework Other, `npm run build`, and output `dist`. Pushes to `main` build the site. A local production build can be checked with `vercel pull --environment=production` followed by `vercel build --prod`; deploy that checked output using `vercel deploy --prebuilt --prod`. Keep Vercel credentials in environment variables. Runtime assets remain large (about 345 MiB), so desktop browsers and a fast connection are recommended; this release does not claim stable 30 fps.

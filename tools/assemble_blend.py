@@ -28,4 +28,5 @@ me=bpy.data.meshes.new('River mean surface');me.from_pydata(vs,[],fs);ob=bpy.dat
 bpy.ops.file.pack_all();bpy.context.scene['runtime']='index.html / src/app.js';bpy.context.scene['skeleton_library']='public/runtime/rigs.json';bpy.context.scene['description']='Current live transforms, original detailed bind-pose geometry, rebuilt bridge, botanical crowns, working quays and six boat designs.'
 bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'production/Qingming_Full_Scene.blend'))
 report={'status':'passed','objects':len(bpy.context.scene.objects),'meshes':len([o for o in bpy.context.scene.objects if o.type=='MESH']),'packedImages':sum(bool(i.packed_file)for i in bpy.data.images),'nativeFile':'production/Qingming_Full_Scene.blend','note':'Bind-pose authoring scene; full skeletal clips and simulation remain editable in runtime JSON and JS.'}
+(ROOT/'evidence').mkdir(parents=True,exist_ok=True)
 (ROOT/'evidence/blender-import.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(json.dumps(report),flush=True)

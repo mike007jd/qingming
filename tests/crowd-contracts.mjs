@@ -78,7 +78,7 @@ assert.equal(crowd.uploadStats.skippedUpdates,skip0+1);
 // driven through the same step sequences must stay bit-identical, and the
 // per-step visiblePoseUpdates series is the exact dirty-row distribution the
 // upload-policy decision was measured against (street cameras burst to 150-300
-// rows; overview cameras idle near zero - see evidence/perfreview-batch1-720p.json).
+// rows; overview cameras idle near zero).
 const engineA={sourceAssets:buildAssets(),playerPosition:null,fixedTime:undefined,renderer:{properties:{get:()=>({})}},gl:null,life:null};
 const engineB={sourceAssets:buildAssets(),playerPosition:null,fixedTime:undefined,renderer:{properties:{get:()=>({})}},gl:null,life:null};
 const crowdA=new CrowdSystem(engineA,rigs,world),crowdB=new CrowdSystem(engineB,rigs,world);

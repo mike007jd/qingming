@@ -209,7 +209,6 @@ class CrowdSystem {
   // A per-row texSubImage2D patch (limits 4/8/16) was measured and dropped:
   // street cameras dirty 150-300 rows (never within the limits) and overview
   // cameras save ~2/3 of the bytes but <0.5 ms/frame - below run-to-run noise.
-  // evidence/perfreview-batch1-720p.json records the dirty-row distribution.
   const rows=[];for(let r=0;r<this.dirty.length;r++)if(this.dirty[r])rows.push(r);
   const n=rows.length;this.dirtyRowStats[n===0?'0':n>=this.actors.length?'all':n>=32?'32+':n>=17?'17-31':n>=9?'9-16':n>=5?'5-8':'1-4']++;
   if(n===0){this.uploadStats.strategy='skip';this.uploadStats.skippedUpdates++;}

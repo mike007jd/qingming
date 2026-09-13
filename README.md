@@ -1,8 +1,10 @@
 # 清明上河 · Qingming Riverside
 
-Development / GMK setup: [DEVELOPMENT.md](DEVELOPMENT.md). Large assets require `git lfs pull`.
+[中文](README.md) | [English](README.en.md)
 
-独立本地 Three.js / WebGL2 工程，包含全城场景、人物与舟车生态、可行走建筑、持续水场，以及 QingmingStyle / QingmingPass 画卷材质。界面为英文。原始参考级美术仍有差距，见 [视觉记录](evidence/visual-review.md)。
+Development setup: [DEVELOPMENT.md](DEVELOPMENT.md). Large assets require `git lfs pull`.
+
+独立本地 Three.js / WebGL2 工程，包含全城场景、人物与舟车生态、可行走建筑、持续水场，以及 QingmingStyle / QingmingPass 画卷材质。界面为英文。
 
 ## 启动与操作
 
@@ -38,18 +40,24 @@ Capture 4K still 导出当前视角 3840×2160 PNG；Export all views 输出十�
 - `public/runtime/`：场景描述、SoA 几何、纹理、导航、绑定与生态数据。
 - `assets/`：五个运行时 GLB；`production/`：原生 Blender 场景、资产清单和制作数据。
 - `tools/`：Blender 制作与导出脚本。`npm run build:assets` 从当前权威场景生成 Auto 几何、SoA 和清单，`BLENDER` 可指定 Blender。仅显式传入 `-- --rebuild-scene` 才从制作输入重建布局与 Blender；使用该选项前保存当前场景修改。
-- `evidence/`：参考图、既有 4K 图库和验收数据；`backup/`：源码快照与实验归档。
+- `evidence/`：新导出时自动创建，不纳入 Git。
 
 ## 验证与记录
 
 运行 `npm test`；服务启动后运行 `npm run test:package`。浏览器入口：
 
 - `?verify=1`：42 项水场、碰撞、交互与三画风/十视角 GPU 检查。
-- `?opttest=1&mode=quality`：三画风 × 镜头 1/3/8 静态 A/B，以及独立的实际运动取样/刷新检查。`?perf=1` 兼容入口也运行此检查；旧折射序列 oracle 已归档。
+- `?opttest=1&mode=quality`：三画风 × 镜头 1/3/8 静态 A/B，以及独立的实际运动取样/刷新检查。`?perf=1` 兼容入口也运行此检查。
 - 上述质量页加 `&full=1`：三画风 × 十镜头的 4K 静态比较。每次报告与图片使用独立时间戳，避免覆盖基线。
 - `?opttest=1`：瓦片批处理、静态矩阵、描边跳过与暂停检查；`?lodtest=1`：几何 LOD 对照。
 - `?profile=1`：六段提交/完成墙钟计时。未计入的时间包含水体 GPU 更新与回读，不能解释为 CPU 占用率。
 
-Auto/Cinema 质量页默认只报告像素差异并检查 GPU/运动行为；显式 `rmse` / `over8` 参数仍可用于指定对照。它不代表 30 fps 或视觉验收通过。当前目标及验收方法见 [性能规格](PERF_QUALITY_SPEC.md)，运行 `npm run test:auto-assets` 检查资产预算和绑定。
+Auto/Cinema 质量页默认只报告像素差异并检查 GPU/运动行为；显式 `rmse` / `over8` 参数仍可用于指定对照。它不代表 30 fps 或视觉验收通过。运行 `npm run test:auto-assets` 检查资产预算和绑定。
 
-本轮实现、护栏修复、验收数据与未完成项见 [1080p 性能改造记录](evidence/auto-30fps-20260912.md)。
+## 静态网站构建
+
+运行 `npm run build` 生成 `dist/`，使用静态服务器托管该目录。静态版本隐藏依赖本地服务器的截图与录像控件。
+
+## 协议
+
+项目代码采用 [MIT 协议](LICENSE)。随附的 Three.js 保留其[原始协议](vendor/LICENSE-THREE.txt)。

@@ -1,8 +1,10 @@
 # Qingming Riverside · A Living Scroll
 
-Development / GMK setup: [DEVELOPMENT.md](DEVELOPMENT.md). Large assets require `git lfs pull`.
+[中文](README.md) | [English](README.en.md)
 
-A self-contained local Three.js / WebGL2 scene with a riverside city, animated people and traffic, walkable buildings, a persistent water field, and QingmingStyle / QingmingPass scroll materials. Reference-level artwork remains unfinished; see the [visual review](evidence/visual-review.md).
+Development setup: [DEVELOPMENT.md](DEVELOPMENT.md). Large assets require `git lfs pull`.
+
+A self-contained local Three.js / WebGL2 scene with a riverside city, animated people and traffic, walkable buildings, a persistent water field, and QingmingStyle / QingmingPass scroll materials.
 
 ## Run and explore
 
@@ -36,18 +38,24 @@ All 584 people, 31 joints, adult/child actions, ecology, collisions and original
 
 `src/` contains rendering, water, ecology, interaction and scroll materials. World coordinates use metres and Y-up; legacy ecology coordinates are converted at the boundary. `public/runtime/` contains scene data, SoA geometry, textures, navigation and rigs. `assets/` contains five runtime GLBs; `production/` contains native Blender scenes, manifests and authoring data.
 
-`npm run build:assets` derives Auto geometry, SoA data and manifests from the current authoritative scene; set `BLENDER` to choose an executable. Explicit `-- --rebuild-scene` reconstructs layout and Blender sources from production inputs; preserve current scene edits before using that option. `evidence/` holds references, the existing 4K gallery and verification data; `backup/` holds source snapshots and archived experiments.
+`npm run build:assets` derives Auto geometry, SoA data and manifests from the current authoritative scene; set `BLENDER` to choose an executable. Explicit `-- --rebuild-scene` reconstructs layout and Blender sources from production inputs; preserve current scene edits before using that option. New captures are written to `evidence/` on demand and are ignored by Git.
 
 ## Verification
 
 Run `npm test`, then `npm run test:package` with the server running. Browser checks:
 
 - `?verify=1`: 42 water, collision, interaction and GPU checks across three styles and ten views.
-- `?opttest=1&mode=quality`: static cinema/auto comparison across three styles and views 1/3/8, plus a separate live-motion sampling/refresh probe. The compatibility URL `?perf=1` runs the same checks; its incompatible old refraction oracle is archived.
+- `?opttest=1&mode=quality`: static cinema/auto comparison across three styles and views 1/3/8, plus a separate live-motion sampling/refresh probe. The compatibility URL `?perf=1` runs the same checks.
 - Add `&full=1` to the quality page for thirty 4K static comparisons. Reports and images use unique timestamps to preserve earlier baselines.
 - `?opttest=1`: roof batching, static transforms, outline skipping and paused rendering. `?lodtest=1`: geometry LOD comparison.
 - `?profile=1`: six segments of CPU submission plus GPU completion wall time. Unprofiled time also includes GPU water updates/readback and is not CPU utilization.
 
-The Auto/Cinema quality page reports pixel differences and checks GPU/motion behavior by default. Explicit `rmse` / `over8` parameters can still bound a selected comparison. This page does not establish visual or 30 fps acceptance. See [the current specification](PERF_QUALITY_SPEC.md); `npm run test:auto-assets` validates asset budgets and rig data.
+The Auto/Cinema quality page reports pixel differences and checks GPU/motion behavior by default. Explicit `rmse` / `over8` parameters can still bound a selected comparison. This page does not establish visual or 30 fps acceptance. `npm run test:auto-assets` validates asset budgets and rig data.
 
-See the [1080p implementation and acceptance record](evidence/auto-30fps-20260912.md) for the guardrail repair, measurements and remaining work.
+## Static web build
+
+Run `npm run build` to generate `dist/`. Serve that directory with a static web server. Local capture/export controls are hidden in this build.
+
+## License
+
+Project code is licensed under the [MIT License](LICENSE). Bundled Three.js retains its [upstream license](vendor/LICENSE-THREE.txt).

@@ -9,6 +9,7 @@ const provenance=JSON.parse(await readFile(new URL('production/soa-manifest.json
 assert.equal(createHash('sha256').update(geometry).digest('hex'),provenance.derivedGzSha256,'Run git lfs pull: geometry must match the asset manifest');
 await rm(out,{recursive:true,force:true});
 await mkdir(new URL('public/runtime/',out),{recursive:true});
+await cp(new URL('LICENSE',root),new URL('LICENSE',out));
 for(const folder of ['src','vendor'])await cp(new URL(folder,root),new URL(folder,out),{recursive:true});
 for(const file of [...city.images,'navigation.json','rigs.json','ecology.json']){
  const from=new URL('public/runtime/'+file,root),to=new URL('public/runtime/'+file,out);
