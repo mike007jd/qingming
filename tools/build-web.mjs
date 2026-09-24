@@ -2,6 +2,7 @@ import {cp, mkdir, readFile, rm, writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 const root=new URL('../',import.meta.url),out=new URL('dist/',root);
+const pages=process.argv.includes('--pages'),assetBase='https://qingming-assets.bubucn.com/f628c4e/';
 const city=JSON.parse(await readFile(new URL('public/runtime/city.json',root)));
 assert.equal(city.geometry.format,'soa-v1');
 const geometry=await readFile(new URL('public/runtime/'+city.geometry.file,root));
@@ -31,5 +32,15 @@ await writeFile(new URL('public/runtime/city.json',out),JSON.stringify(city));
 let html=await readFile(new URL('index.html',root),'utf8');
 // Local capture writes remain available through npm start; public hosting serves the scene only.
 html=html.replace('</head>','<style>.panel-bottom,#capture-suite,#export-status,#record{display:none!important}</style></head>');
+if(pages){
+ for(const file of ['src/loader.js','src/scene-details.js']){
+  const path=new URL(file,out);let replacements=0;
+  const source=(await readFile(path,'utf8')).replace(/(['"])\.\/(public\/runtime\/|assets\/)([^'"]*)\1/g,(_,quote,folder,name)=>{replacements++;return JSON.stringify(assetBase+folder+name);});
+  assert.equal(replacements,4,file+': asset URLs changed; review the Pages rewrite');
+  await writeFile(path,source);
+ }
+ html=html.replace('href="./assets/','href="'+assetBase+'assets/');
+ for(const folder of ['assets/','public/runtime/'])await rm(new URL(folder,out),{recursive:true});
+}
 await writeFile(new URL('index.html',out),html);
-console.log('Web build: 4 GLBs, '+city.geometry.parts.length+' geometry parts; original production assets excluded.');
+console.log(pages?'Pages build: scene assets served from '+assetBase:'Web build: 4 GLBs, '+city.geometry.parts.length+' geometry parts; original production assets excluded.');

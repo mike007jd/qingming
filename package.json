@@ -11,6 +11,7 @@
     "test:package": "node tests/package.mjs",
     "test:auto-assets": "python3 tests/auto-assets.py",
     "build": "node tools/build-web.mjs",
+    "build:pages": "node tools/build-web.mjs --pages",
     "test:web": "node tests/web-loader.mjs"
   },
   "engines": {
